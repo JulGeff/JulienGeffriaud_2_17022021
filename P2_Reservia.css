@@ -219,6 +219,8 @@ font-family: 'ralewayregular';
 
 }
 
+
+/*Mise en forme Header*/
 header
 {
     display: flex;
@@ -256,15 +258,74 @@ color: #0065FC;
 font-weight: bold;
 }
 
-
 #Reservia
 {
     width: 80px;
     height: 35px;
 }
 
-.icon
+
+/*Mise en forme section 1 avec barre de recherche*/
+
+/*Redimensionnement de toutes les icônes SVG*/
+.icon, svg
 {
 width: 15px;
 height: 15px;
+}
+
+#filtres
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1em;
+    font-family: "ralewaybold";
+}
+
+#filtres h2
+{
+
+    font-size: 1em;
+}
+
+#menu_filtres
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+
+.filtres
+{
+    display:flex;
+    flex-direction: row;
+    margin-left: 50px;
+    justify-content:flex-start;
+    align-items: center;
+    border: #F2F2F2 3px solid;
+    height : 40px;
+    padding-right: 15px;
+    border-radius: 22px 22px 22px 22px;
+}
+
+/* cercle autour des icônes*/
+.circle
+{
+    width: 44px; 
+    height: 44px; 
+    border-radius: 50%;
+    background-color:#DEEBFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons
+{
+    fill: blue;
 }
