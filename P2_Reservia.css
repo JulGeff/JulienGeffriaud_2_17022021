@@ -560,6 +560,7 @@ font-size: 0.9em;
     background-color: white;
     border: white 5px solid;
     border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 20px #c0bfbf;
     width:195px;
     height:auto;
 
@@ -609,7 +610,7 @@ font-size: 0.9em;
     background-color: white;
     border: white 5px solid;
     border-radius: 15px 15px 15px 15px;
-    
+    box-shadow: 1px 1px 20px #c0bfbf;
     width: 290px;
     height: 120px;
 }
@@ -639,39 +640,93 @@ font-size: 0.9em;
 
 }
 
-/*section "Activités à Marseille"
+/*section "Activités à Marseille"*/
 
 #Activites
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width :1400px;
+    height: 350px;
 
 }
 
-#Activites img
-{
-
-
-    border-radius: 15px 15px 15px 15px;
-    width:250px;
-}
-
-#col1 img, #col3 img
-{
-
-
-    border-radius: 15px 15px 15px 15px;
-
-}
 
 #col1, #col2, #col3, #col4
 {
 
     width: 250px;
-    height : 600px;
-    border: 1px black solid;
+    height : auto;
+ 
+}
+
+#col2, #col4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+#col2 img, #col4 img
+{
+
+
+    border-radius: 15px 15px 0px 0px;
+    height:300px;
+    width:250px;
+    object-fit:cover;
+   
+}
+
+#col2-1 img
+{
+height : 160px;
+object-fit:cover;
+
+}
+
+#col2-2 img
+{
+height : 80px;
+object-fit:cover;
+
+}
+
+#col4-1 img
+{
+height : 160px;
+object-fit:cover;
+
+}
+
+#col4-2 img
+{
+height : 80px;
+object-fit:cover;
+
+}
+
+
+
+#col1 img, #col3 img
+{
+
+    border-radius: 15px 15px 0px 0px;
+    height:300px;
+    width:250px;
+    object-fit:cover;
+    
+
+}
+
+#col1, #col2-1, #col2-3, #col3, #col4-1, #col4-2
+{
+
+    box-shadow: 1px 1px 20px #c0bfbf;
+    border-radius: 15px 15px 15px 15px;
+
 }
 
 /*
