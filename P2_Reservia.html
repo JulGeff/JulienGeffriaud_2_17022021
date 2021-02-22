@@ -4,19 +4,21 @@
         <title>Reservia</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="P2_Reservia.css">
+        <link rel="stylesheet" media="screen and (max-device-width: 480px)" href="P2_Reservia_smartphone.css" />
     </head>
 
 
     <body>
         <div id="tout_sauf_footer">
             <header>
+                <div id="header1">
                 <img id="Reservia" src="images/logo/Reservia@3x.png" alt="logo Reservia">
-
+                <p>S'inscrire</p>
+                </div>
                 <nav>
                     <ul id=menu>
                         <li class="menu_list1"><a href=#hebergements>Hébergements</a></li>
                         <li class="menu_list2"><a href=#activ>Activités</a></li>
-                        <li class="menu_list3">S'inscrire</li>
                     </ul>
                 </nav>
             </header>
@@ -31,8 +33,10 @@
                             </div>    
                                 <form method="post" action="traitement.php">
                                 <p>
-                                    <input type="text" name="lieu" id="lieu" placeholder="Marseille, France" maxlength="30" />
+                                    <input type="text" name="lieu" id="lieu" placeholder="Marseille, France" maxlength="30" /> 
                                     <input disabled id="bouton" type="submit" value="Rechercher"/>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="boutontel" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill=white d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+
                                 </p>
                             </form>
                         </div>
@@ -274,7 +278,7 @@
                             <div id="Activites">
                                 <div id="col1">
                                     <a href="#">
-                                        <div>
+                                        <div class=blocactiv>
                                             <img src="Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Bateaux">
                                             <h3>Vieux Port</h3>                            
                                         </div>
@@ -284,7 +288,7 @@
                                 <div id="col2">
                                     <div id="col2-1">
                                         <a href="#">
-                                            <div>
+                                            <div class=blocactiv>
                                             <img src="Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort en pierre">
                                                 <h3>Fort de Pomègues</h3>                            
                                             </div>
@@ -293,7 +297,7 @@
                                     
                                     <div id="col2-2">
                                         <a href="#">
-                                            <div>
+                                            <div class=blocactiv>
                                                 <img src="Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Plage, mer et îles">
                                                 <h3>Îles du Frioul</h3>                            
                                             </div>
@@ -303,7 +307,7 @@
 
                                 <div id="col3">
                                     <a href="#">
-                                        <div>
+                                        <div class=blocactiv>
                                             <img src="Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Montagne et mer">
                                             <h3>Parc National des Calanques</h3>                            
                                         </div>
@@ -313,7 +317,7 @@
                                 <div id="col4">
                                     <div id="col4-1">
                                         <a href="#">
-                                            <div>
+                                            <div class=blocactiv>
                                                 <img src="Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Eglise sur une colline">
                                                 <h3>Notre-Dame-de-la-Garde</h3>                            
                                             </div>
@@ -322,7 +326,7 @@
 
                                     <div id="col4-2">
                                         <a href="#">
-                                            <div>
+                                            <div class=blocactiv>
                                                 <img src="Images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Palais">
                                                 <h3>Parc Longchamp</h3>                            
                                             </div>

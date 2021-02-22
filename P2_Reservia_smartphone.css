@@ -1,0 +1,256 @@
+body, #tout_sauf_footer
+{
+    width: auto;
+    margin-left : 3%;
+    margin-right: 3%;
+
+}
+
+
+#filtres, #menu_filtres
+{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#trouvez h1
+{
+    font-size: 3.5em;
+    line-height: normal;
+        
+}
+
+#trouvez p
+{
+    font-size: 1.1em;
+
+}
+
+header p
+
+{
+    font-size: 2.2em;
+    font-family: 'ralewaybold';
+    
+
+}
+
+nav
+{
+    font-size: 2.5em;
+    
+
+}
+
+/*redimensionnement icônes SVG*/
+svg
+{
+    height: 46px;
+    width: 46px;
+
+}
+
+
+/*redimensionnement barre de recherche*/
+
+
+#search
+{
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#location
+{   
+    width: 120px;
+    height: 120px;
+    border-radius:30px 0 0 30px;
+ 
+ 
+}
+
+#lieu
+{  
+    height: 114px;
+    width: 550px;
+    
+}
+
+#bouton
+{
+    color: #0065FC;
+    border-radius :35px;
+    width : 120px;
+    height: 120px;
+    position:relative;
+    right: 40px;
+    
+}
+
+.boutontel
+{
+    display: unset;
+    position: absolute;
+    top :910px;
+    right : 150px;
+
+}
+
+
+
+
+
+#hebergements1of2, #hebergements2of2, #hebergements, #hebergementsanstitre, #populaire, #populairehead, #populairesanstitre, #activ, #Activites, #col1, #col2, #col3, #col4
+{
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#menu
+{
+    position :static;
+    justify-content: center;
+    
+}
+
+
+.menu_list1 
+{
+    width: auto;
+    border-top: none;
+    border-bottom: #0065FC 3px solid;
+    padding-bottom: 15px;
+}
+
+.menu_list2
+{
+    width: auto;
+    border-bottom: #F2F2F2 3px solid;
+    padding-bottom: 15px;
+   
+}
+
+
+header
+{
+display: flex;
+flex-direction: column;
+width :auto;
+}
+
+#Reservia
+{
+    width: 250px;
+    height: 110px;
+ 
+}
+
+
+#header1
+{
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top : 60px;
+
+}
+
+nav{
+
+    font-family: 'ralewaysemibold';
+    position: static;
+
+
+}
+
+
+#populaire
+{
+    border-radius: 0px 0px;
+
+
+}
+
+
+.Encarts
+{
+   
+    width: 100%;
+  
+    
+}
+
+
+.Encarts2
+{
+   
+    width: 80%;
+    height : 400px;
+    
+}
+
+#hebergements img
+{
+    height: auto;
+    width: 100%;
+    object-fit:cover;
+    
+    
+}
+
+
+#populaire img
+{
+    height: auto;
+    width: 40%;
+    object-fit:cover;
+    
+    
+}
+
+
+
+
+#heberpop
+{
+    flex-direction: column-reverse;
+
+}
+
+#hebergements
+{
+    background-color: white;
+
+}
+
+.blocactiv
+{
+    height : 100px;
+
+
+}
+
+#activ img
+{
+    height : 80px;
+
+
+}
+
+
+footer
+{
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: auto;
+    align-items: flex-start;
+
+
+}
