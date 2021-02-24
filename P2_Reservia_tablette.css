@@ -1,0 +1,68 @@
+footer
+{
+    width: 100%;
+
+
+}
+
+#all_but_footer
+{
+    width: 90%;
+
+
+}
+
+
+#heberpop
+{
+    flex-direction: column-reverse;
+
+}
+
+
+
+#populaire_notitle
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+#activities_notitle
+{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+#col1
+{
+
+    order: 1;
+}
+
+#col2
+{
+
+    order: 2;
+}
+
+#col3
+{
+
+    order: 4;
+}
+
+#col4
+{
+
+    order: 3;
+}
+
