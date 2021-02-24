@@ -3,23 +3,29 @@
     <head>
         <title>Reservia</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="P2_Reservia.css">
-        <link rel="stylesheet" media="screen and (max-device-width: 480px)" href="P2_Reservia_smartphone.css" />
+        <link rel="stylesheet" media="screen and (max-width: 767px)" href="P2_Reservia_smartphone.css" />
+        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width : 1024px)" href="P2_Reservia_tablette.css" />
+
     </head>
 
 
     <body>
         <div id="tout_sauf_footer">
             <header>
-                <div id="header1">
-                <img id="Reservia" src="images/logo/Reservia@3x.png" alt="logo Reservia">
-                <p>S'inscrire</p>
+                <div>
+                <img src="images/logo/Reservia@3x.png" alt="logo Reservia">
+                
                 </div>
                 <nav>
-                    <ul id=menu>
-                        <li class="menu_list1"><a href=#hebergements>Hébergements</a></li>
-                        <li class="menu_list2"><a href=#activ>Activités</a></li>
+                    <ul>
+                        <li><a href=#hebergements>Hébergements</a></li>
+                        <li><a href=#activ>Activités</a></li>
                     </ul>
+                    <div>
+                    <a href=#><strong>S'inscrire</strong></a>
+                    </div>
                 </nav>
             </header>
 
@@ -32,12 +38,10 @@
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="search3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentcolor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg> 
                             </div>    
                                 <form method="post" action="traitement.php">
-                                <p>
                                     <input type="text" name="lieu" id="lieu" placeholder="Marseille, France" maxlength="30" /> 
                                     <input disabled id="bouton" type="submit" value="Rechercher"/>
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="boutontel" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill=black d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
 
-                                </p>
                             </form>
                         </div>
 
@@ -83,202 +87,197 @@
                     <section id="hebergements">
                         <h1>Hébergements à Marseille</h1>
                             <div id="hebergementsanstitre">
-                                <div id="hebergements1of2">
-                                    <div class="Encarts">
-                                        <a href="#">
-                                            <div>
-                                                <img class="imgencart1" src="Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre d'hôtel">
-                                                    <div class="encarttexte">
-                                                        <h3>Auberge la Canebière</h3>
-                                                            <p>Nuit à partir de <strong>25€</strong></p>
-                                                            <div class=stars>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                            </div>
-                                                    </div>        
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="Encarts">
-                                        <a href="#">
-                                            <div>
-                                                <img class="imgencart1" src="Images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Chambre d'hôtel">
-                                                    <div class="encarttexte">
-                                                        <h3>Hôtel du port</h3>
-                                                            <p>Nuit à partir de 52€</p>
-                                                            <div class=stars>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                            </div>  
-                                                    </div>            
-                                            </div>
-                                        </a>
-                                    </div>
-                                
-                                    <div class="Encarts">
-                                        <a href="#">
-                                            <div>
-                                                <img class="imgencart1" src="Images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Chambre d'hôtel">
-                                                    <div class="encarttexte">    
-                                                        <h3>Hôtel Les mouettes</h3>
-                                                            <p>Nuit à partir de 76€</p>
-                                                            <div class=stars>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                            </div>    
-                                                    </div>                                                      
-                                            </div>
-                                        </a>
-                                    </div>  
+                                <div class="Encarts">
+                                    <a href="#">
+                                        <div>
+                                            <img src="Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre d'hôtel">
+                                                <div class="encarttexte">
+                                                    <h3>Auberge la Canebière</h3>
+                                                        <p>Nuit à partir de <strong>25€</strong></p>
+                                                        <div class=stars>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                        </div>
+                                                </div>        
+                                        </div>
+                                    </a>
                                 </div>
-                                <div id="hebergements2of2">
-                                    <div class="Encarts">
-                                        <a href="#">
-                                            <div>
-                                                <img class="imgencart1" src="Images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Chambre d'hôtel">
-                                                    <div class="encarttexte">
-                                                        <h3>Hôtel de la mer</h3>
-                                                            <p>Nuit à partir de 46€ </p>
-                                                            <div class=stars>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                            </div>
-                                                    </div>        
-                                            </div>
-                                        </a>
-                                    </div> 
-                                
-                                    <div class="Encarts">
-                                        <a href="#">
-                                            <div>
-                                                <img class="imgencart1" src="Images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Chambre d'hôtel">
-                                                    <div class="encarttexte">
-                                                        <h3>Auberge Le Panier</h3>
-                                                            <p>Nuit à partir de 23€</p>
-                                                            <div class=stars>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                            </div>
-                                                    </div>        
-                                            </div>
-                                        </a>
-                                    </div>
+
+                                <div class="Encarts">
+                                    <a href="#">
+                                        <div>
+                                            <img src="Images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Chambre d'hôtel">
+                                                <div class="encarttexte">
+                                                    <h3>Hôtel du port</h3>
+                                                        <p>Nuit à partir de 52€</p>
+                                                        <div class=stars>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                        </div>  
+                                                </div>            
+                                        </div>
+                                    </a>
+                                </div>
                             
-                                    <div class="Encarts">
-                                        <a href="#">
-                                            <div>
-                                                <img class="imgencart1" src="Images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chambre d'hôtel">
-                                                    <div class="encarttexte">
-                                                        <h3>Hôtel chez Amina</h3>
-                                                            <p>Nuit à partir de 96€</p>
-                                                            <div class=stars>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                            </div>
-                                                    </div>        
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>    
+                                <div class="Encarts">
+                                    <a href="#">
+                                        <div>
+                                            <img src="Images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Chambre d'hôtel">
+                                                <div class="encarttexte">    
+                                                    <h3>Hôtel Les mouettes</h3>
+                                                        <p>Nuit à partir de 76€</p>
+                                                        <div class=stars>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                        </div>    
+                                                </div>                                                      
+                                        </div>
+                                    </a>
+                                </div>  
+                            
+                                <div class="Encarts">
+                                    <a href="#">
+                                        <div>
+                                            <img src="Images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Chambre d'hôtel">
+                                                <div class="encarttexte">
+                                                    <h3>Hôtel de la mer</h3>
+                                                        <p>Nuit à partir de 46€ </p>
+                                                        <div class=stars>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                        </div>
+                                                </div>        
+                                        </div>
+                                    </a>
+                                </div> 
+                            
+                                <div class="Encarts">
+                                    <a href="#">
+                                        <div>
+                                            <img src="Images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Chambre d'hôtel">
+                                                <div class="encarttexte">
+                                                    <h3>Auberge Le Panier</h3>
+                                                        <p>Nuit à partir de 23€</p>
+                                                        <div class=stars>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                        </div>
+                                                </div>        
+                                        </div>
+                                    </a>
+                                </div>
+                        
+                                <div class="Encarts">
+                                    <a href="#">
+                                        <div>
+                                            <img src="Images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chambre d'hôtel">
+                                                <div class="encarttexte">
+                                                    <h3>Hôtel chez Amina</h3>
+                                                        <p>Nuit à partir de 96€</p>
+                                                        <div class=stars>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                        </div>
+                                                </div>        
+                                        </div>
+                                    </a>
+                                </div>   
                             </div>
 
                             <h2>Afficher plus</h2>
                     </section>
-                    
+                                    
                     <section id="populaire">
-                        <div id="populairehead">
+                        <div id="populaire_header">
                         <h1>Les plus populaires</h1>
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-line" class="svg-inline--fa fa-chart-line fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill=#F2F2F2 d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z"></path></svg>        
-                        </div>   
-                            <div id="populairesanstitre"> 
-                                <div>   
-                                    <a href="#">
-                                        <div class="Encarts2">
-                                            <img src="Images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Chambre d'hôtel">
-                                                <div class="encartdroite">
-                                                    <h3>Hôtel Le Soleil du matin</h3>
-                                                    <p>Nuit à partir de 128€</p>
-                                                    <br>
-                                                    <div class=stars>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                    </div>
-                                                </div>    
-                                        </div>
-                                    </a>
-                                </div> 
-
-                                <div>
-                                    <a href="#">
-                                        <div class="Encarts2">
-                                            <img src="Images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre d'hôtel">
-                                                <div class="encartdroite">
-                                                    <h3>Au coeur de l'eau <br/> Chambres d'hôtes</h3>
-                                                    <p>Nuit à partir de 71€</p>
-                                                    <br>
-                                                    <div class=stars>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                    </div>    
-                                                </div>              
-                                        </div>
-                                    </a>
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-line" class="svg-inline--fa fa-chart-line fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill=black d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z"></path></svg>        
+                        </div>     
+                            <a href="#">
+                                <div class="Encarts2">
+                                    <img src="Images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Chambre d'hôtel">
+                                        <div class="encartdroite">
+                                            <h3>Hôtel Le Soleil du matin</h3>
+                                            <p>Nuit à partir de 128€</p>
+                                            <br>
+                                            <div class=stars>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                            </div>
+                                        </div>    
                                 </div>
+                            </a>
+                              
 
-                                <div>
-                                    <a href="#">
-                                        <div class="Encarts2">
-                                            <img src="Images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre d'hôtel">
-                                                <div class="encartdroite">   
-                                                    <h3>Hôtel Tout bleu et Blanc</h3>
-                                                    <p>Nuit à partir de 68€</p>
-                                                    <br>
-                                                    <div class=stars>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                                                    </div> 
-                                                </div>               
-                                        </div>
-                                     </a>
-                                </div>  
-                            </div>  
+                                
+                            <a href="#">
+                                <div class="Encarts2">
+                                    <img src="Images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre d'hôtel">
+                                        <div class="encartdroite">
+                                            <h3>Au coeur de l'eau <br/> Chambres d'hôtes</h3>
+                                            <p>Nuit à partir de 71€</p>
+                                            <br>
+                                            <div class=stars>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                            </div>    
+                                        </div>              
+                                </div>
+                            </a>
+                                
+
+                               
+                            <a href="#">
+                                <div class="Encarts2">
+                                    <img src="Images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre d'hôtel">
+                                        <div class="encartdroite">   
+                                            <h3>Hôtel Tout bleu et Blanc</h3>
+                                            <p>Nuit à partir de 68€</p>
+                                            <br>
+                                            <div class=stars>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#0065FC d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="etoiles" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill=#F2F2F2 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                            </div> 
+                                        </div>               
+                                </div>
+                                </a> 
+                                
                     </section>
                 </div>
-            
+                
+                
                     <section id="activ">
                         <h1>Activités à Marseille</h1>
                             <div id="Activites">
                                 <div id="col1">
                                     <a href="#">
-                                        <div class=blocactiv>
+                                        <div class="blocactiv">
                                             <img src="Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Bateaux">
                                             <h3>Vieux Port</h3>                            
                                         </div>
@@ -288,7 +287,7 @@
                                 <div id="col2">
                                     <div id="col2-1">
                                         <a href="#">
-                                            <div class=blocactiv>
+                                            <div class="blocactiv">
                                             <img src="Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort en pierre">
                                                 <h3>Fort de Pomègues</h3>                            
                                             </div>
@@ -297,7 +296,7 @@
                                     
                                     <div id="col2-2">
                                         <a href="#">
-                                            <div class=blocactiv>
+                                            <div class="blocactiv">
                                                 <img src="Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Plage, mer et îles">
                                                 <h3>Îles du Frioul</h3>                            
                                             </div>
@@ -307,7 +306,7 @@
 
                                 <div id="col3">
                                     <a href="#">
-                                        <div class=blocactiv>
+                                        <div class="blocactiv">
                                             <img src="Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Montagne et mer">
                                             <h3>Parc National des Calanques</h3>                            
                                         </div>
@@ -317,7 +316,7 @@
                                 <div id="col4">
                                     <div id="col4-1">
                                         <a href="#">
-                                            <div class=blocactiv>
+                                            <div class="blocactiv">
                                                 <img src="Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Eglise sur une colline">
                                                 <h3>Notre-Dame-de-la-Garde</h3>                            
                                             </div>
@@ -326,7 +325,7 @@
 
                                     <div id="col4-2">
                                         <a href="#">
-                                            <div class=blocactiv>
+                                            <div class="blocactiv">
                                                 <img src="Images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Palais">
                                                 <h3>Parc Longchamp</h3>                            
                                             </div>
@@ -368,4 +367,4 @@
         </footer>   
     </body>
 
-    
+   

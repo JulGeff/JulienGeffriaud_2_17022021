@@ -183,10 +183,11 @@
 
 body
 {
-background-color: white;
-width: 1400px;
-margin: auto;
-font-family: 'ralewayregular';
+    background-color: white;
+    width: 1100px;
+    margin: auto;
+    font-family: 'ralewayregular';
+
 }
 
 /*Habillage liens pour qu'ils ne changent pas de couleur après avoir été visités*/
@@ -196,76 +197,57 @@ a
     color: black;
 }
 
-#tout_sauf_footer
-{
 
-    width: 80%;
-    margin: auto;
-}
 
 /*Mise en forme Header*/
-#header1
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    color: #0065FC;
-    font-weight: bold;
-    font-size: 0.9pm;
-    margin-top: 29px;
- 
-}
- 
 
-
-#menu
-{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    position: absolute;
-    top:-16px;
-    left: 950px;    
-
-}
-
-.menu_list1
-{
-   
-    border-top: solid #0065FC 2px;
-    width: 130px;
-    text-align: center;
-    padding-top: 40px;
-    color: #0065FC;
-    font-size: 0.8em;
-
-}
-
-.menu_list1 a
-{
-    color: #0065FC;
-}
-
-
-.menu_list2
-{
-    border-top: solid transparent 2px;
-    width: 130px;
-    text-align: center;
-    color: black;
-    padding-top: 40px;
-    font-size: 0.8em;
-
-}
-
-#Reservia
+header img
 {
     width: 80px;
     height: 35px;
  
 }
 
+ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    font-size: 0.8pm;
+
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    
+}
+
+
+nav a
+{
+    color: #0065FC;
+    margin-right: 50px;
+
+}
+
+
+
+
+
+/*Mise en forme section 1 avec barre de recherche*/
 #trouvez h1
 {   
     line-height: 0em;
@@ -278,7 +260,7 @@ a
     font-weight: 500;    
 
 }
-/*Mise en forme section 1 avec barre de recherche*/
+
 
 /*Redimensionnement de toutes les icônes SVG*/
 svg
@@ -526,19 +508,18 @@ p
 {
     background-color: #F2F2F2;
     border-radius: 22px 22px 22px 22px;
-    height: 540px;
-    width: 750px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
+    flex: 2;
+    margin-right : 3%
 
 }
 
 #hebergements h1, #hebergements h2
 {
-    margin-left: 40px;
-    margin-top: 40px;
+
+margin: 3% 5% 3% 5%;
 
 }
 
@@ -546,21 +527,12 @@ p
 {
   
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 370px;
-
-}
-
-
-#hebergements1of2, #hebergements2of2
-{
-    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: flex-end;
 
 }
+
 
 /*encarts individuels dans section "Hébergements à Marseille"*/
 
@@ -571,12 +543,11 @@ p
     border: white 5px solid;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 1px 1px 20px #c0bfbf;
-    width: 195px;
-    height: 160px;
-    line-height: 5px;
+    line-height: 0.5;
+    margin-bottom: 3%;
+    margin-top: 1%;
 
 }
-
 
 .encarttexte
 {
@@ -596,43 +567,25 @@ p
 
 /*mise en forme section "Les plus populaires*/
 
-#populairehead
-{
-    width: 290px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 25px;
-    position: relative;
-    top: 22px;
-    
-  
-
-}
-
 #populaire
 {
     background-color: #F2F2F2;
     border-radius: 22px 22px 22px 22px;
-    height: 540px;
-    width: 340px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    flex: 1;
 
 }
 
-#populairesanstitre
+#populaire_header
 {
-    height: 500px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-
+    margin: 3% 10% 3% 10%;
 }
-
 
 
 /*encarts individuels dans section "Les plus populaires"*/
@@ -644,11 +597,18 @@ p
     background-color: white;
     border: white 5px solid;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 1px 1px 20px #c0bfbf;
-    width: 280px;
-    height: 120px;
-    
+    box-shadow: 1px 1px 20px #c0bfbf; 
+    margin: 0 8% 8% 8%;
    
+}
+
+.Encarts2 img
+{
+    border-radius: 11px 0px 0px 11px;
+    width: 110px;
+    height: 120px;
+    object-fit:cover;
+
 }
 
 .Encarts2 p
@@ -663,60 +623,27 @@ p
 
 }
 
-#populaire img
-{
-    border-radius: 11px 0px 0px 11px;
-    width: 110px;
-    height: 120px;
-    object-fit:cover;
 
-}
-
-/*Agencement sections "Hébergements à Marseille" & "Les plus populaires"*/
+/*Agencement en ligne sections "Hébergements à Marseille" & "Les plus populaires"*/
 #heberpop
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 20px;
 
 }
 
 /*section "Activités à Marseille"*/
 
-#activ
-{
-    margin-top: 50px;
-
-}
-
-#activ h1
-{
-    margin-bottom: 30px;
-
-}
-
 #Activites
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 375px;
     
-
 }
 
-
-#col1, #col2, #col3, #col4
-{
-    width: 250px;
-    height : auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
- 
-}
 
 #col2, #col4
 {
@@ -727,51 +654,55 @@ p
 }
 
 
-#col2 img, #col4 img
+/*dimensionnement images*/
+
+#col2 img, #col4 img, #col1 img, #col3 img
 {
+    width: 240px;
     border-radius: 15px 15px 0px 0px;
-    height:300px;
-    width:250px;
     object-fit:cover;
    
 }
 
-#col2-1 img
-{
-    height : 150px;
-    object-fit:cover;
-
-}
-
-#col2-2 img
-{
-    height : 90px;
-    object-fit:cover;
-
-}
-
-#col4-1 img
-{
-    height : 120px;
-    object-fit:cover;
-
-}
-
-#col4-2 img
-{
-    height : 120px;
-    object-fit:cover;
-
-}
 
 #col1 img, #col3 img
 {
-    border-radius: 15px 15px 0px 0px;
     height:331px;
-    width:250px;
-    object-fit:cover;
-    
+
 }
+
+
+#col2-1 img
+{
+  
+    height : 150px;
+
+}
+
+
+#col2-2 img
+{
+    
+    height : 90px;
+
+}
+
+
+#col4-1 img
+{
+
+    height : 120px;
+
+}
+
+
+#col4-2 img
+{
+   
+    height : 120px;
+
+}
+
 
 #col1, #col2-1, #col2-2, #col3, #col4-1, #col4-2
 {
@@ -779,6 +710,7 @@ p
     border-radius: 15px 15px 15px 15px;
 
 }
+
 
 #Activites h3
 {
