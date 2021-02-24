@@ -184,11 +184,18 @@
 body
 {
     background-color: white;
-    width: 1100px;
-    margin: auto;
     font-family: 'ralewayregular';
+    margin: auto;
 
 }
+
+#tout_sauf_footer
+{
+    width: 1100px;
+    margin: auto;
+
+}
+
 
 /*Habillage liens pour qu'ils ne changent pas de couleur après avoir été visités*/
 a
@@ -208,7 +215,7 @@ header img
  
 }
 
-ul
+header ul
 {
     list-style-type: none;
     display: flex;
@@ -238,8 +245,25 @@ header
 
 nav a
 {
+    
+    padding-right: 25px;
+    padding-left: 25px;
     color: #0065FC;
-    margin-right: 50px;
+    
+    
+
+}
+
+#li1
+{
+    border-top:#0065FC solid 2px ;
+    padding-top : 47px;
+
+}
+
+#li2
+{
+    color: black;
 
 }
 
@@ -636,12 +660,19 @@ margin: 3% 5% 3% 5%;
 
 /*section "Activités à Marseille"*/
 
+#activ
+{
+margin: 4% 0 4% 0;
+
+}
+
+
 #Activites
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+     
 }
 
 
@@ -723,46 +754,42 @@ margin: 3% 5% 3% 5%;
 
 /*footer*/
 
-footer ul
-{
-    list-style-type: none;
-
-}
-
-
 footer
 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     background-color: #F2F2F2;
-    width: 85%;
-    height: 170px;
-    margin: auto;
-    margin-top: 50px;
     font-size: 0.8em;
+    padding-top: 20px;
+    width: 1200px;
+    margin: auto;
+
 }
 
-.footerlist
+
+footer ul
 {
-    margin-right: 160px;
-    margin-top: 20px;
+    list-style-type: none;
+    margin-right: 150px;
 
 }
+
 
 footer li
 {
-    margin-bottom: 10px;
     font-size: 1em;
-
+    line-height : 2;
 
 }
+
+
 footer h2
-{
-    
+{ 
     font-family: 'ralewaybold';
     font-size: 1.2em;
-    margin-left: 40px;
+    margin-left : 40px;
+    
 
 }
 
