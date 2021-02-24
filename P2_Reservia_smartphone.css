@@ -1,8 +1,10 @@
-body
+body, #all_but_footer, footer
 {
-    width: 2000px;
+    width: 100%;
+
 
 }
+
 
 
 header, footer
@@ -11,11 +13,6 @@ header, footer
 
 }
 
-#filtres
-{
-    flex-wrap: wrap;
-
-}
 
 #heberpop, #hebergements, #hebergements_notitle, #populaire, #activities, #activities_notitle
 {
@@ -24,11 +21,33 @@ header, footer
 
 }
 
+#filtres
+{
+    flex-direction: column;
+
+}
+
+#menu_filtres
+{
+    flex-wrap: wrap;
+
+}
+
+#menu_filtres div
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
 nav
 {
 
-    flex-direction:row;
+    flex-direction:row-reverse;
     flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -38,21 +57,27 @@ nav
 
 }
 
-#hebergements
+#populairehead
 {
-    background-color: white;
+
+    width: 100%;
 
 }
 
 #populaire
 {
     border-radius: 0;
+    width: 100%;
     
 }
 
-#activities img
+#hebergements
 {
-    height: 150px;   
+    background-color: white;
 
 }
+
+
+
+
 
