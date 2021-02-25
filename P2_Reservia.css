@@ -789,19 +789,7 @@ footer h2
     
     }
     
-   #filtres, #menu_filtres
-   {
-    flex-wrap: wrap;
 
-   }
-    
-   .filtres
-   {
-       margin-top: 10px;
-
-   }
-    
-    
     nav
     {
         flex-direction:row-reverse;
@@ -809,6 +797,30 @@ footer h2
      
     
     }
+
+    #bouton
+    {
+        width: 44px;
+        color: #0065FC;
+        border-radius: 15px;
+        position: relative;
+        right : 15px
+    }
+
+    #filtres, #menu_filtres
+    {
+        flex-wrap: wrap;
+
+    }
+        
+    .filtres
+    {
+        margin-top: 10px;
+
+    }
+    
+    
+   
     
     #heberpop
     {
