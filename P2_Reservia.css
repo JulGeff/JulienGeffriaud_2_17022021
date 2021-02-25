@@ -205,36 +205,51 @@ a
 }
 
 /*Polices*/
-sections
-{
-    font-family: "ralewayregular";
-
-}
-
 h1
 {
-    font-family: "ralewaybold";
-    font-size: 1.2em;
+ 
+    font-size: 1.1rem;
+    font-family: 'ralewaysemibold';
 
 }
 
 h2
 {
-    font-family: "ralewaybold";
-    font-size: 1em;
+    
+    font-size: 0.85rem;
+    font-family: 'ralewaysemibold';
 
 }
 
 h3
 {
-    font-family: "ralewaybold";
-    font-size: 0.9em;
+    font-family: 'ralewaysemibold';
+    font-size: 0.8rem;
+
+}
+
+
+#activities h3
+{
+    font-family: 'ralewaybold';
 
 }
 
 p
 {
-    font-size: 0.8em;
+    font-size: 0.75rem;
+
+}
+
+li, a
+{
+    font-size: 0.8rem;
+
+}
+
+footer h2
+{
+    font-size: 0.9rem;
 
 }
 
@@ -244,56 +259,58 @@ header img
 {
     width: 80px;
     height: 35px;
- 
+    padding-top : 47px;
+
+}
+
+header ul, nav
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }
 
 header ul
 {
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
 
 }
 
-nav
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-    font-size: 0.8pm;
-
-}
 
 header
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 3%;
+    align-items: center;
     
 }
 
 
 nav a
 {
-    
+    display: block;
     padding-right: 25px;
     padding-left: 25px;
     color: #0065FC; 
+    padding-top : 47px;
+
     
 }
 
 #li1
 {
     border-top:#0065FC solid 2px ;
-    padding-top : 47px;
+    
 
 }
 
 #li2
 {
     color: black;
+    
 
 }
 
@@ -412,7 +429,7 @@ form
     flex-direction: row;
     margin-left: 20px;
     align-items: center;
-    border: #F2F2F2 3px solid;
+    border: #d4d2d2 2px solid;
     height : 40px;
     padding-right: 15px;
     border-radius: 40px 40px 40px 40px;
@@ -430,30 +447,26 @@ form
 
 /*Agencement des boîtes*/
 
+
 #filtres
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
-    font-size: 1em;
-    font-family: "ralewaybold";
-    margin-top: 20px;
-}
-
-#filtres h2
-{
-    font-size: 1em;
+    
+    
 
 }
 
 #menu_filtres
+
 {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
+    
 
 }
+
 
 #menu_filtres h2
 {
@@ -657,7 +670,6 @@ margin: 4% 0 4% 0;
 #activities_notitle h3
 {
     margin-left: 20px;
-    font-size: 0.8em;
 
 }
 
@@ -729,7 +741,6 @@ footer
     flex-direction: row;
     align-items: flex-start;
     background-color: #F2F2F2;
-    font-size: 0.8em;
     padding-top: 20px;
     width: 1200px;
     margin: auto;
@@ -747,7 +758,6 @@ footer ul
 
 footer li
 {
-    font-size: 1em;
     line-height : 2;
 
 }
@@ -755,14 +765,231 @@ footer li
 
 footer h2
 { 
-    font-family: 'ralewaybold';
-    font-size: 1.2em;
+
     margin-left : 40px;
     
 }
 
+/*Media queries pour smartphone portrait*/
+
+@media only screen and (max-width : 767px) and (orientation : portrait)
+{
+  
+    body, footer, #all_but_footer, footer ul
+    {
+        width: auto;  
+        
+    
+    }
+       
+    #heberpop, #hebergements, #hebergements_notitle, #populaire, #activities, #activities_notitle, footer
+    {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+   #filtres, #menu_filtres
+   {
+    flex-wrap: wrap;
+
+   }
+    
+   .filtres
+   {
+       margin-top: 10px;
+
+   }
+    
+    
+    nav
+    {
+        flex-direction:row-reverse;
+        flex-wrap: wrap-reverse;
+     
+    
+    }
+    
+    #heberpop
+    {
+        flex-direction: column-reverse;
+    
+    }
+    
+    
+    #populaire
+    {
+        border-radius: 0;
+        
+    }
+    
+    #hebergements
+    {
+        background-color: white;
+        
+    
+    }
+           
+    #activities img
+    {
+        height: 100px;
+
+    }
+
+    #col1, #col2-1, #col2-2, #col3, #col4-1, #col4-2
+    {
+        margin: 10px 0 10px 0;
+
+    }
+    
+    footer
+    {
+        margin-top: 30px;
+        padding-bottom: 30px;
+        align-items: flex-start;
+    }
+
+   
+}
+
+
+/*Media queries pour smartphone paysage*/
+
+@media only screen and (max-width : 767px) and (orientation : landscape)
+{
+
+    body, footer, #all_but_footer
+    {
+        width: auto;
+    
+    
+    }
+
+
+}
+
+/*Media queries pour tablette portrait*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+
+{
+    #all_but_footer
+    {
+        width: auto;
+        margin: 0 4% 0 4%;
+
+    }
+
+    footer
+    {
+        width: auto;
+
+    }
+
+    #filtres
+
+    {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    #menu_filtres
+    {
+        flex-wrap: wrap;
+
+    }
+
+    #heberpop
+    {
+        flex-direction: column-reverse;
+
+    }
+
+    #populaire_notitle
+    {
+        flex-direction: row;
+    }
+
+    #hebergements
+    {
+        margin-top: 5%;
+        padding-top: 3%;
+
+    }
+
+    #populaire_notitle
+    {
+        flex-direction: column;
+
+    }
+
+    #activities
+    {
+        margin-top: 5%;
+        
+    }
+
+
+    #activities_notitle
+    {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 5%;
+        
+    }
+
+    #col1
+    {
+
+        order: 1;
+    }
+
+    #col2
+    {
+
+        order: 2;
+    }
+
+    #col3
+    {
+
+        order: 4;
+    }
+
+    #col4
+    {
+
+        order: 3;
+    }
+
+    #col3, #col4
+    {
+        margin: 5% 0 5% 0;
+
+    }
+
+    #col2-2 img
+    {
+        height: 105px;
+
+    }
+
+}
+
+/*Media queries pour tablette paysage*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+{
+
+    body, footer, #all_but_footer
+    {
+        width: auto;
+
+
+    }
 
 
 
-
+}
 
