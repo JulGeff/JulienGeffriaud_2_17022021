@@ -363,7 +363,7 @@ form
     
 }
 
-#search_bar
+#searchbar
 {
     display: flex;
     flex-direction: row;
@@ -371,7 +371,7 @@ form
     
 }
 
-#search_bar input:focus 
+#searchbar input:focus 
 {
     outline :none;
 
@@ -751,7 +751,7 @@ footer
 footer ul
 {
     list-style-type: none;
-    margin-right: 150px;
+    margin-right: 230px;
 
 }
 
@@ -765,14 +765,21 @@ footer li
 
 footer h2
 { 
-
+    
     margin-left : 40px;
     
 }
 
-/*Media queries pour smartphone portrait*/
+#footer_list1
+{
+    margin-right: -70px;
 
-@media only screen and (max-width : 767px) and (orientation : portrait)
+}
+
+
+/*Media queries pour smartphone*/
+
+@media only screen and (max-width : 767px)
 {
   
     body, footer, #all_but_footer, footer ul
@@ -781,6 +788,7 @@ footer h2
         
     
     }
+
        
     #heberpop, #hebergements, #hebergements_notitle, #populaire, #activities, #activities_notitle, footer
     {
@@ -794,8 +802,17 @@ footer h2
     {
         flex-direction:row-reverse;
         flex-wrap: wrap-reverse;
-     
     
+     
+    }
+
+
+
+    #searchbar_container
+    {
+     display: flex;
+     justify-content: center;
+ 
     }
 
     #bouton
@@ -831,8 +848,17 @@ footer h2
     
     #populaire
     {
+        width: 100%;
         border-radius: 0;
         
+    }
+
+    #populaire_notitle
+    {
+      
+        flex-direction: column;
+
+
     }
     
     #hebergements
@@ -865,27 +891,11 @@ footer h2
 }
 
 
-/*Media queries pour smartphone paysage*/
+/*Media queries pour tablette portrait & paysage*/
 
-@media only screen and (max-width : 767px) and (orientation : landscape)
+@media only screen and (min-width : 768px) and (max-width : 1024px)
 {
-
-    body, footer, #all_but_footer
-    {
-        width: auto;
-    
-    
-    }
-
-
-}
-
-/*Media queries pour tablette portrait*/
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
-
-{
-    #all_but_footer
+#all_but_footer
     {
         width: auto;
         margin: 0 4% 0 4%;
@@ -898,17 +908,53 @@ footer h2
 
     }
 
+    header
+    {
+        margin: 0 10% 0 10%;
+
+    }
+
+    #trouvez
+    {
+        text-align: center;
+
+    }
+
+    #searchbar_container
+    {
+        display: flex;
+        justify-content: center;
+ 
+    }
+
     #filtres
 
     {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        margin:auto;
+        margin-top: 50px;
 
     }
+
 
     #menu_filtres
     {
         flex-wrap: wrap;
+        padding-left: 80px;
+
+    }
+
+    .filtres
+    {
+        margin-top: 5px;
+    
+    }
+
+    #infoline
+    {
+        justify-content: center;
+        margin-bottom: 60px;
 
     }
 
@@ -920,20 +966,51 @@ footer h2
 
     #populaire_notitle
     {
+        
+        display: flex;
         flex-direction: row;
+        justify-content: center;
+        
     }
+
+    .inserts2
+
+    {
+        margin: 0 12px 40px 12px;
+    
+    }
+
+    .inserts2 img
+
+    {
+        margin: 0;
+        width: 150px;
+        height : 150px;
+    
+    }
+
+    .insert_right
+    {
+        margin-right: 15px;
+
+    }
+
 
     #hebergements
     {
         margin-top: 5%;
+        margin-right: 0;
         padding-top: 3%;
+        justify-content: space-around;
 
     }
 
-    #populaire_notitle
-    {
-        flex-direction: column;
-
+    
+    .inserts img
+    { 
+        width: 250px;
+        height: 95px;
+   
     }
 
     #activities
@@ -942,7 +1019,6 @@ footer h2
         
     }
 
-
     #activities_notitle
     {
         flex-wrap: wrap;
@@ -950,6 +1026,47 @@ footer h2
         margin-top: 5%;
         
     }
+
+    #col2-2 img
+    {
+        height: 105px;
+
+    }
+
+    footer ul
+    {
+        margin-right: 100px;
+
+    }
+
+}
+
+/*Media queries pour tablette portrait*/
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait)
+
+{   
+
+    #filtres
+    {
+        max-width: 80%;
+
+    }
+
+    #populaire_notitle
+    {
+        
+        flex-wrap: wrap; 
+        
+    }
+
+    .inserts2
+
+    {
+        max-width: 300px;
+    
+    }
+
 
     #col1
     {
@@ -975,15 +1092,10 @@ footer h2
         order: 3;
     }
 
+
     #col3, #col4
     {
         margin: 5% 0 5% 0;
-
-    }
-
-    #col2-2 img
-    {
-        height: 105px;
 
     }
 
@@ -991,17 +1103,58 @@ footer h2
 
 /*Media queries pour tablette paysage*/
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape)
 {
-
-    body, footer, #all_but_footer
+    
+    #filtres
     {
-        width: auto;
-
+        max-width: 60%;
 
     }
 
+    #populaire_notitle
+    {
+        
+        margin : 0 3% 0 3%;
+        
+    }
+    
+    .inserts2
+
+    {
+        max-width: 275px;
+    
+    }
 
 
+    .inserts2 img
+
+    {
+        max-width: 130px;
+    
+    }
+
+    #col4
+    {
+        flex-direction: row;
+
+    }
+    #col4-1, #col4-2
+    {
+        margin: 50px 30px 0 30px;
+       
+    }
+
+    #col4-1 img, #col4-2 img
+    {
+
+       height: 200px;
+       
+    }
+
+
+    footer
+    {
+        justify-content: space-evenly;
+    }
 }
-
