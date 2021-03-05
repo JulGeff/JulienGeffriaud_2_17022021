@@ -797,6 +797,11 @@ footer h2
     
     }
     
+    header, #trouvez h1, #trouvez p, #filtres h2, #infoline
+    {
+        margin: 10px 20px 10px 20px;
+
+    }
 
     nav
     {
@@ -812,6 +817,7 @@ footer h2
     {
      display: flex;
      justify-content: center;
+     margin: 20px 0 20px 0;
  
     }
 
@@ -827,18 +833,17 @@ footer h2
     #filtres, #menu_filtres
     {
         flex-wrap: wrap;
+        padding-left: 0;
 
     }
         
     .filtres
     {
         margin-top: 10px;
+        
 
     }
-    
-    
-   
-    
+      
     #heberpop
     {
         flex-direction: column-reverse;
@@ -887,11 +892,15 @@ footer h2
         align-items: flex-start;
     }
 
-   
+    footer ul
+    {
+        margin:auto;
+
+    }
 }
 
 
-/*Media queries pour tablette portrait & paysage*/
+/*Media queries pour tablette*/
 
 @media only screen and (min-width : 768px) and (max-width : 1024px)
 {
