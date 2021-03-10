@@ -296,7 +296,7 @@ header ul
 }
 
 
-header a
+header li:first-of-type a, #sinscrire a
 {
     color: #0065FC; 
 
@@ -305,7 +305,7 @@ header a
 #navdiv
 {   
     grid-column: 9 / 9;
-    justify-items: self-end;
+    
 }
 
 
@@ -319,27 +319,24 @@ header a
 }
 
 
-#li1, #li2
+header ul li
 {
     
     
     padding: 58px 30px 0 30px;
-    display: block;
    
     
 
 }
 
-#li1
+header ul li:first-of-type
 {
     border-top: solid 2px #0065FC;
     
-
 }
 
-#li2
+header ul li:last-of-type
 { 
-    color: black;
     border-top: solid 2px white;
 
 }
@@ -900,27 +897,28 @@ footer h2
         margin:0;
         padding:0;
         justify-content: center;
-        margin:0;
+     
     }
-
-    #li1, #li2
+    
+    header ul li
     {
-        padding-bottom: 5px;
-        padding-top: 0px;
-        border-top: hidden;
+        width: calc(100% / 2);
+        text-align: center;
         border-bottom-style: solid;
         border-bottom-width: 3px;
-        
-    }
-
-    #li1
-    {
-
-        border-bottom-color: #0065FC;
+        padding: 20px 0 10px 0;
+             
        
     }
 
-    #li2
+    header ul li:first-of-type
+    {
+        border-bottom-color: #0065FC;
+        border-top: hidden;
+       
+    }
+
+    header ul li:last-of-type
     { 
         border-bottom-color: #F2F2F2;
        
@@ -928,11 +926,11 @@ footer h2
 
     #searchbar_container
     {
-     display: flex;
-     justify-content: center;
-     margin: 20px 0 20px 0;
- 
+        display: flex;
+        justify-content: center;
+    
     }
+  
 
     #rechercher
     {
@@ -951,26 +949,37 @@ footer h2
     
     }
 
+    #location_icon
+    {
+        position: relative;
+        left : 15px;
+    
+    }
+    
+
+    #filtres
+    {
+        padding-top: 20px;
+
+    }
+
     #filtres, #menu_filtres
     {
         flex-wrap: wrap;
         padding-left: 0;
-        
 
     }
 
     #menu_filtres
     {
-        margin: 5px;
-        
+        margin: 5px; 
 
     }
         
     .filtres
     {
         margin-top: 10px;
-        
-
+    
     }
 
     #menu_filtres h2
@@ -990,6 +999,7 @@ footer h2
     {
         width: 10px;
         height: 10px;
+
     }
 
       
@@ -1004,6 +1014,7 @@ footer h2
     {
         width: 100%;
         border-radius: 0;
+        padding-bottom: 25px;
         
     }
 
@@ -1017,7 +1028,6 @@ footer h2
 
     #populaire_notitle
     {
-      
         flex-direction: column;
 
     }
@@ -1025,8 +1035,7 @@ footer h2
     .inserts2 p
     {
         line-height: 1;
-        
-
+    
     }
 
     #hebergements
@@ -1034,15 +1043,12 @@ footer h2
         width:100%;
         background-color: white;
        
-    
     }
 
     #hebergements h1
     {
-    
         margin: 0;
         padding: 30px 20px 10px 20px;
-
 
     }
     
@@ -1050,6 +1056,7 @@ footer h2
     {
         height: 120px;
         width: 100%;
+
     }
 
     #activities h1
@@ -1064,6 +1071,7 @@ footer h2
         margin-top: 30px;
         padding-bottom: 30px;
         align-items: flex-start;
+
     }
 
     footer ul
@@ -1107,11 +1115,10 @@ footer h2
     {
         display: flex;
         justify-content: center;
- 
+    
     }
-
+  
     #filtres
-
     {
         flex-direction: column;
         align-items: center;
@@ -1238,7 +1245,6 @@ footer h2
 
     #populaire_notitle
     {
-        
         flex-wrap: wrap; 
         
     }
@@ -1250,29 +1256,28 @@ footer h2
     
     }
 
-
     #col1
     {
-
         order: 1;
+
     }
 
     #col2
     {
-
         order: 2;
+
     }
 
     #col3
     {
-
         order: 4;
+
     }
 
     #col4
     {
-
         order: 3;
+
     }
 
 
@@ -1297,31 +1302,23 @@ footer h2
 
     #populaire_notitle
     {
-        
         margin : 0 3% 0 3%;
         
     }
     
     .inserts2
-
     {
         max-width: 275px;
     
     }
 
 
-    .inserts2 img
-
-    {
-        max-width: 130px;
-    
-    }
-
     #col4
     {
         flex-direction: row;
 
     }
+
     #col4-1, #col4-2
     {
         margin: 50px 30px 0 30px;
@@ -1335,9 +1332,9 @@ footer h2
        
     }
 
-
     footer
     {
         justify-content: space-evenly;
+
     }
 }
