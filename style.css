@@ -815,6 +815,10 @@ footer h2 {
         height: 150px;
     }
 
+    .inserts2 p {
+        line-height: 1;
+    }
+
     .insert_right {
         margin-right: 15px;
     }
