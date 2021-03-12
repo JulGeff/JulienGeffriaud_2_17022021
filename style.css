@@ -2,558 +2,390 @@
 
 @font-face {
     font-family: 'ralewayblack';
-    src: url('Fonts/raleway-black-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-black-webfont.woff') format('woff');
+    src: url('Fonts/raleway-black-webfont.woff2') format('woff2'), url('Fonts/raleway-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewayblack_italic';
-    src: url('Fonts/raleway-blackitalic-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-blackitalic-webfont.woff') format('woff');
+    src: url('Fonts/raleway-blackitalic-webfont.woff2') format('woff2'), url('Fonts/raleway-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewaybold';
-    src: url('Fonts/raleway-bold-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-bold-webfont.woff') format('woff');
+    src: url('Fonts/raleway-bold-webfont.woff2') format('woff2'), url('Fonts/raleway-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewaybold_italic';
-    src: url('Fonts/raleway-bolditalic-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-bolditalic-webfont.woff') format('woff');
+    src: url('Fonts/raleway-bolditalic-webfont.woff2') format('woff2'), url('Fonts/raleway-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewayextrabold';
-    src: url('Fonts/raleway-extrabold-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-extrabold-webfont.woff') format('woff');
+    src: url('Fonts/raleway-extrabold-webfont.woff2') format('woff2'), url('Fonts/raleway-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewayextrabold_italic';
-    src: url('Fonts/raleway-extrabolditalic-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-extrabolditalic-webfont.woff') format('woff');
+    src: url('Fonts/raleway-extrabolditalic-webfont.woff2') format('woff2'), url('Fonts/raleway-extrabolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewayextralight';
-    src: url('Fonts/raleway-extralight-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-extralight-webfont.woff') format('woff');
+    src: url('Fonts/raleway-extralight-webfont.woff2') format('woff2'), url('Fonts/raleway-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewayextralight_italic';
-    src: url('Fonts/raleway-extralightitalic-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-extralightitalic-webfont.woff') format('woff');
+    src: url('Fonts/raleway-extralightitalic-webfont.woff2') format('woff2'), url('Fonts/raleway-extralightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewayitalic';
-    src: url('Fonts/raleway-italic-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-italic-webfont.woff') format('woff');
+    src: url('Fonts/raleway-italic-webfont.woff2') format('woff2'), url('Fonts/raleway-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewaylight';
-    src: url('Fonts/raleway-light-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-light-webfont.woff') format('woff');
+    src: url('Fonts/raleway-light-webfont.woff2') format('woff2'), url('Fonts/raleway-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewaylight_italic';
-    src: url('Fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-lightitalic-webfont.woff') format('woff');
+    src: url('Fonts/raleway-lightitalic-webfont.woff2') format('woff2'), url('Fonts/raleway-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewaymedium';
-    src: url('Fonts/raleway-medium-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-medium-webfont.woff') format('woff');
+    src: url('Fonts/raleway-medium-webfont.woff2') format('woff2'), url('Fonts/raleway-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewaymedium_italic';
-    src: url('Fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-mediumitalic-webfont.woff') format('woff');
+    src: url('Fonts/raleway-mediumitalic-webfont.woff2') format('woff2'), url('Fonts/raleway-mediumitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewayregular';
-    src: url('Fonts/raleway-regular-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-regular-webfont.woff') format('woff');
+    src: url('Fonts/raleway-regular-webfont.woff2') format('woff2'), url('Fonts/raleway-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewaysemibold';
-    src: url('Fonts/raleway-semibold-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-semibold-webfont.woff') format('woff');
+    src: url('Fonts/raleway-semibold-webfont.woff2') format('woff2'), url('Fonts/raleway-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewaysemibold_italic';
-    src: url('Fonts/raleway-semibolditalic-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-semibolditalic-webfont.woff') format('woff');
+    src: url('Fonts/raleway-semibolditalic-webfont.woff2') format('woff2'), url('Fonts/raleway-semibolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewaythin';
-    src: url('Fonts/raleway-thin-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-thin-webfont.woff') format('woff');
+    src: url('Fonts/raleway-thin-webfont.woff2') format('woff2'), url('Fonts/raleway-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'ralewaythin_italic';
-    src: url('Fonts/raleway-thinitalic-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-thinitalic-webfont.woff') format('woff');
+    src: url('Fonts/raleway-thinitalic-webfont.woff2') format('woff2'), url('Fonts/raleway-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*Global attributes*/
 
-body
-{
+body {
     background-color: white;
     font-family: 'ralewayregular';
     margin: auto;
-
 }
 
-#all_but_footer
-{
+#all_but_footer {
     width: 1100px;
     margin: auto;
-
 }
 
-
 /*Habillage liens pour qu'ils ne changent pas de couleur après avoir été visités*/
-a
-{
+
+a {
     text-decoration: none;
     color: black;
 }
 
 /*Fonts*/
-h1
-{
- 
+
+h1 {
     font-size: 1.1rem;
     font-family: 'ralewaysemibold';
-
 }
 
-h2
-{
-    
+h2 {
     font-size: 0.85rem;
     font-family: 'ralewaysemibold';
-
 }
 
-h3
-{
+h3 {
     font-family: 'ralewaysemibold';
     font-size: 0.8rem;
-
 }
 
-
-#activities h3
-{
+#activities h3 {
     font-family: 'ralewaybold';
-
 }
 
-p
-{
+p {
     font-size: 0.75rem;
-
 }
 
-li, a
-{
+li, a {
     font-size: 0.8rem;
-
 }
 
-footer h2
-{
+footer h2 {
     font-size: 0.9rem;
-
 }
 
 /*Mise en forme Header*/
 
-header
-{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-   align-items: flex-end;
-    
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-end;
 }
 
-
-header div:first-of-type
-{
-    
-
-
+header div:first-of-type {
     grid-column: 1 / 1;
-  
-    
-  
-
 }
 
-header img
-{
-    
+header img {
     height: 35px;
- 
-  
-
 }
 
-header ul
-{
+header ul {
     list-style-type: none;
     display: flex;
     margin: auto;
-
-     
-  
 }
 
-
-header li:first-of-type a, #sinscrire a
-{
-    color: #0065FC; 
-
+header li:first-of-type a, #sinscrire a {
+    color: #0065FC;
 }
 
-#navdiv
-{   
+#navdiv {
     grid-column: 9 / 9;
-    
 }
 
-
-#sinscrire
-{
-   
+#sinscrire {
     grid-column: 10 / 10;
     text-align: center;
     display: block;
     padding-top: 58px;
 }
 
-
-header ul li
-{
-    
-    
+header ul li {
     padding: 58px 30px 0 30px;
-   
-    
-
 }
 
-header ul li:first-of-type
-{
+header ul li:first-of-type {
     border-top: solid 2px #0065FC;
-    
 }
 
-header ul li:last-of-type
-{ 
+header ul li:last-of-type {
     border-top: solid 2px white;
-
 }
-
-
 
 /*Mise en forme section 1 avec barre de recherche*/
-#trouvez h1
-{   
-  
+
+#trouvez h1 {
     margin-top: 50px;
-  
 }
 
-#trouvez p
-{
-    font-weight: 500;    
-
+#trouvez p {
+    font-weight: 500;
 }
-
 
 /*Resizing of all SVG icons but stars */
-svg
-{
+
+svg {
     width: 15px;
     height: 15px;
 }
 
 /*Redimensionnement et placement des étoiles de notation*/
 
-.etoiles
-{
+.etoiles {
     width: 12px;
     height: 12px;
 }
 
-.stars
-{
+.stars {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
 }
 
 /*Agencement de la barre de recherches "search"*/
 
-form
-{
+form {
     display: flex;
     flex-direction: row;
-    
 }
 
-#searchbar
-{
+#searchbar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
 }
 
-#searchbar input:focus 
-{
-    outline :none;
-
+#searchbar input:focus {
+    outline: none;
 }
 
-#location_icon, #rechercher
-{
+#location_icon, #rechercher {
     height: 44px;
-    border: none; 
-
+    border: none;
 }
 
-#location_icon
-{
+#location_icon {
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
     width: 44px;
-    display :flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-#user_field
-{
+#user_field {
     font-family: 'ralewaybold';
     font-size: 0.9em;
     width: 170px;
-    border : #F2F2F2 solid 2px;
+    border: #F2F2F2 solid 2px;
     border-right: none;
     padding-left: 20px;
-
 }
 
-
-#rechercher
-{
+#rechercher {
     background-color: #0065FC;
     color: white;
     font-family: 'ralewaysemibold';
     font-size: 0.9em;
     border-radius: 0 15px 15px 0;
     width: 110px;
-
 }
 
-button svg
-{
+button svg {
     width: 0;
     height: 0;
-
 }
-
 
 /*Agencement de la ligne de filtres*/
 
-
 /*boîtes filtres individuelles*/
-.filtres
-{
-    display:flex;
+
+.filtres {
+    display: flex;
     flex-direction: row;
     margin-left: 20px;
     align-items: center;
     border: #d4d2d2 2px solid;
-    height : 40px;
+    height: 40px;
     padding-right: 15px;
     border-radius: 40px 40px 40px 40px;
-    
 }
 
-.filtres:hover
-{
-  
-    border: #DEEBFF 2px solid; 
+.filtres:hover {
+    border: #DEEBFF 2px solid;
     background-color: #0065FC;
-    color:white;
+    color: white;
 }
-
 
 /*Agencement des boîtes entre elles*/
 
-
-#filtres
-{
+#filtres {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-    
-
 }
 
-#menu_filtres
-
-{
+#menu_filtres {
     display: flex;
     flex-direction: row;
-    
-
 }
 
-
-#menu_filtres h2
-{
-    padding :10px;
-
+#menu_filtres h2 {
+    padding: 10px;
 }
 
 /* cercle autour des icônes de filtre*/
-.circle
-{
-    width: 45px; 
-    height: 45px; 
+
+.circle {
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    background-color:#DEEBFF;
+    background-color: #DEEBFF;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
-    right : 3px;
-
+    right: 3px;
 }
-
 
 /* Ligne "+ de 500 logements"*/
 
-.info_icon
-{
+.info_icon {
     padding: 5px;
     border-radius: 50%;
     border: 2px #F2F2F2 solid;
-    
 }
 
-#infoline
-{
-
+#infoline {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-#infoline p
-{
+#infoline p {
     margin-left: 20px;
-
 }
-
 
 /* Section Hébergements à Marseille*/
 
-#hebergements
-{
+#hebergements {
     background-color: #F2F2F2;
     border-radius: 22px 22px 22px 22px;
     display: flex;
@@ -561,32 +393,22 @@ button svg
     justify-content: flex-start;
     flex: 2;
     margin-right: 3%
-
 }
 
-#hebergements h1, #hebergements h2
-{
-
-margin: 3% 5% 3% 5%;
-
+#hebergements h1, #hebergements h2 {
+    margin: 3% 5% 3% 5%;
 }
 
-#hebergements_notitle
-{
-  
+#hebergements_notitle {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
 }
-
 
 /*Encarts individuels dans section "Hébergements"*/
 
-.inserts
-
-{
+.inserts {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -597,40 +419,31 @@ margin: 3% 5% 3% 5%;
     line-height: 0.5;
     margin-bottom: 3%;
     margin-top: 1%;
-
 }
 
-.insert_bottom
-{
+.insert_bottom {
     margin-left: 10px;
-
 }
 
-.inserts img
-{
+.inserts img {
     border-radius: 11px 11px 0px 0px;
-    width:195px;
-    height:95px;
-    object-fit:cover;
-    
+    width: 195px;
+    height: 95px;
+    object-fit: cover;
 }
-
 
 /*mise en forme section "Les plus populaires*/
 
-#populaire
-{
+#populaire {
     background-color: #F2F2F2;
     border-radius: 22px 22px 22px 22px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     flex: 1;
-
 }
 
-#populaire_header
-{
+#populaire_header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -638,140 +451,102 @@ margin: 3% 5% 3% 5%;
     margin: 3% 10% 3% 10%;
 }
 
-
 /*inserts individuels dans section "Les plus populaires"*/
-.inserts2
 
-{   
+.inserts2 {
     display: flex;
     flex-direction: row;
     background-color: white;
     border: white 5px solid;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 1px 1px 20px #c0bfbf; 
+    box-shadow: 1px 1px 20px #c0bfbf;
     margin: 0 8% 8% 8%;
-   
 }
 
-.inserts2 img
-{
+.inserts2 img {
     border-radius: 11px 0px 0px 11px;
     width: 110px;
     height: 120px;
-    object-fit:cover;
-
+    object-fit: cover;
 }
 
-.inserts2 p
-{
+.inserts2 p {
     line-height: 0px;
-
 }
 
-.insert_right
-{
+.insert_right {
     margin-left: 15px;
-
 }
-
 
 /*Agencement en ligne sections "Hébergements à Marseille" & "Les plus populaires"*/
-#heberpop
-{
+
+#heberpop {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 20px;
-
 }
 
 /*section "Activités à Marseille"*/
 
-#activities
-{
-margin: 4% 0 4% 0;
-
+#activities {
+    margin: 4% 0 4% 0;
 }
 
-
-#activities_notitle
-{
+#activities_notitle {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-     
 }
 
-#activities_notitle h3
-{
+#activities_notitle h3 {
     margin-left: 20px;
-
 }
 
-
-#col2, #col4
-{
+#col2, #col4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
-
 
 /*dimensionnement images*/
 
-#activities img
-{
+#activities img {
     width: 240px;
     border-radius: 15px 15px 0px 0px;
-    object-fit:cover;
-   
+    object-fit: cover;
 }
 
-#col1 img, #col3 img
-{
-    height:331px;
-
+#col1 img, #col3 img {
+    height: 331px;
 }
 
-#col2-1 img
-{
-    height : 150px;
-
+#col2-1 img {
+    height: 150px;
 }
 
-#col2-2 img
-{
-    height : 90px;
-
+#col2-2 img {
+    height: 90px;
 }
 
-#col4-1 img
-{
-    height : 120px;
-
+#col4-1 img {
+    height: 120px;
 }
 
-#col4-2 img
-{
-    height : 120px;
-
+#col4-2 img {
+    height: 120px;
 }
 
 /*Ombres*/
 
-#col1, #col2-1, #col2-2, #col3, #col4-1, #col4-2
-{
+#col1, #col2-1, #col2-2, #col3, #col4-1, #col4-2 {
     box-shadow: 1px 1px 20px #c0bfbf;
     border-radius: 15px 15px 15px 15px;
-
 }
-
 
 /*footer*/
 
-footer
-{
+footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -779,560 +554,366 @@ footer
     padding-top: 20px;
     width: 1200px;
     margin: auto;
-
 }
 
-
-footer ul
-{
+footer ul {
     list-style-type: none;
     margin-right: 230px;
-
 }
 
-
-footer li
-{
-    line-height : 2;
-
+footer li {
+    line-height: 2;
 }
 
-
-footer h2
-{ 
-    
-    margin-left : 40px;
-    
+footer h2 {
+    margin-left: 40px;
 }
 
-#footer_list1
-{
+#footer_list1 {
     margin-right: -70px;
-
 }
-
 
 /*Media queries pour smartphone*/
 
-@media only screen and (max-width : 767px)
-{
-  
-    body, footer, #all_but_footer, footer ul
-    {
-        width: auto;  
-        
-    
+@media only screen and (max-width: 767px) {
+    body, footer, #all_but_footer, footer ul {
+        width: auto;
     }
 
-       
-    #heberpop, #hebergements, #hebergements_notitle, #populaire, #activities, #activities_notitle, footer
-    {
+    #heberpop, #hebergements, #hebergements_notitle, #populaire, #activities, #activities_notitle, footer {
         flex-direction: column;
-      
-    
     }
-    
-    #trouvez h1, #trouvez p, #filtres h2, #infoline, #col1, #col2-1, #col2-2, #col3, #col4-1, #col4-2, .inserts, .inserts2
-    {
+
+    #trouvez h1, #trouvez p, #filtres h2, #infoline, #col1, #col2-1, #col2-2, #col3, #col4-1, #col4-2, .inserts, .inserts2 {
         margin: 10px 20px 10px 20px;
-
     }
 
-    #trouvez h1
-    {
+    #trouvez h1 {
         margin-top: 20px;
     }
 
-
-    header
-    {
-        
+    header {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         margin-top: 30px;
-    
-       
-        
     }
 
-    header div:first-of-type
-
-    {
+    header div:first-of-type {
         grid-column-start: 1;
         padding-left: 20px;
-       
-        
-        
     }
 
-
-    #sinscrire
-    {
+    #sinscrire {
         grid-column-start: 2;
         padding: 0 20px 0 0;
         text-align: right;
         align-self: center;
-        
     }
 
-    #navdiv
-    {
+    #navdiv {
         grid-row: 2/2;
-        grid-column : 1/3;
-         
+        grid-column: 1/3;
     }
-   
 
-    header a, header img
-    {
+    header a, header img {
         padding: 0;
-     
     }
-   
 
-    header ul
-    {
-        margin:0;
-        padding:0;
+    header ul {
+        margin: 0;
+        padding: 0;
         justify-content: center;
-     
     }
-    
-    header ul li
-    {
+
+    header ul li {
         width: calc(100% / 2);
         text-align: center;
         border-bottom-style: solid;
         border-bottom-width: 3px;
         padding: 20px 0 10px 0;
-             
-       
     }
 
-    header ul li:first-of-type
-    {
+    header ul li:first-of-type {
         border-bottom-color: #0065FC;
         border-top: hidden;
-       
     }
 
-    header ul li:last-of-type
-    { 
+    header ul li:last-of-type {
         border-bottom-color: #F2F2F2;
-       
     }
 
-    #searchbar_container
-    {
+    #searchbar_container {
         display: flex;
         justify-content: center;
-    
     }
-  
 
-    #rechercher
-    {
+    #rechercher {
         width: 44px;
         font-size: 0;
         border-radius: 15px;
         position: relative;
-        right : 15px;
-        
+        right: 15px;
     }
 
-    button svg
-    {
+    button svg {
         width: 15px;
         height: 15px;
-    
     }
 
-    #location_icon
-    {
+    #location_icon {
         position: relative;
-        left : 15px;
-    
+        left: 15px;
     }
-    
 
-    #filtres
-    {
+    #filtres {
         padding-top: 20px;
-
     }
 
-    #filtres, #menu_filtres
-    {
+    #filtres, #menu_filtres {
         flex-wrap: wrap;
         padding-left: 0;
-
     }
 
-    #menu_filtres
-    {
-        margin: 5px; 
-
+    #menu_filtres {
+        margin: 5px;
     }
-        
-    .filtres
-    {
+
+    .filtres {
         margin-top: 10px;
-    
     }
 
-    #menu_filtres h2
-    {
-        padding :0;
+    #menu_filtres h2 {
+        padding: 0;
         margin: 2px;
-
     }
 
-    #infoline p
-    {
+    #infoline p {
         margin-left: 7px;
-
     }
 
-    .info_icon
-    {
+    .info_icon {
         width: 10px;
         height: 10px;
-
     }
 
-      
-    #heberpop
-    {
+    #heberpop {
         flex-direction: column-reverse;
-    
     }
-    
-    
-    #populaire
-    {
+
+    #populaire {
         width: 100%;
         border-radius: 0;
         padding-bottom: 25px;
-        
     }
 
-    #populaire_header
-    {
+    #populaire_header {
         margin: 0;
         padding: 20px 20px 0 20px;
-
     }
 
-
-    #populaire_notitle
-    {
+    #populaire_notitle {
         flex-direction: column;
-
     }
 
-    .inserts2 p
-    {
+    .inserts2 p {
         line-height: 1;
-    
     }
 
-    #hebergements
-    {
-        width:100%;
+    #hebergements {
+        width: 100%;
         background-color: white;
-       
     }
 
-    #hebergements h1
-    {
+    #hebergements h1 {
         margin: 0;
         padding: 30px 20px 10px 20px;
-
     }
     
-    #activities img, #hebergements img
-    {
+    #activities img, #hebergements img {
         height: 120px;
         width: 100%;
-
     }
-
-    #activities h1
-    {
-        padding: 20px 20px 5px 20px;
-
-    }
-
     
-    footer
-    {
+    #activities h1 {
+        padding: 20px 20px 5px 20px;
+    }
+
+    footer {
         margin-top: 30px;
         padding-bottom: 30px;
         align-items: flex-start;
-
     }
 
-    footer ul
-    {
-        margin:auto;
-
+    footer ul {
+        margin: auto;
     }
 }
 
-
 /*Media queries pour tablette*/
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
-#all_but_footer
-    {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #all_but_footer {
         width: auto;
         margin: 0 4% 0 4%;
-
     }
 
-    footer
-    {
+    footer {
         width: auto;
-
     }
 
-    header
-    {
+    header {
         margin: 0 10% 0 10%;
-
     }
 
-    #trouvez
-    {
+    #trouvez {
         text-align: center;
-
     }
 
-    #searchbar_container
-    {
+    #searchbar_container {
         display: flex;
         justify-content: center;
-    
     }
-  
-    #filtres
-    {
+
+    #filtres {
         flex-direction: column;
         align-items: center;
-        margin:auto;
+        margin: auto;
         margin-top: 50px;
-
     }
 
-
-    #menu_filtres
-    {
+    #menu_filtres {
         flex-wrap: wrap;
         padding-left: 80px;
-
     }
 
-    .filtres
-    {
+    .filtres {
         margin-top: 5px;
-    
     }
 
-    #infoline
-    {
+    #infoline {
         justify-content: center;
         margin-bottom: 60px;
-
     }
 
-    #heberpop
-    {
+    #heberpop {
         flex-direction: column-reverse;
-
     }
 
-    #populaire_notitle
-    {
-        
+    #populaire_notitle {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
     }
 
-    .inserts2
-
-    {
+    .inserts2 {
         margin: 0 12px 40px 12px;
-    
     }
 
-    .inserts2 img
-
-    {
+    .inserts2 img {
         margin: 0;
         width: 150px;
-        height : 150px;
-    
+        height: 150px;
     }
 
-    .insert_right
-    {
+    .insert_right {
         margin-right: 15px;
-
     }
 
-
-    #hebergements
-    {
+    #hebergements {
         margin-top: 5%;
         margin-right: 0;
         padding-top: 3%;
         justify-content: space-around;
-
     }
 
-    
-    .inserts img
-    { 
+    .inserts img {
         width: 250px;
         height: 95px;
-   
     }
 
-    #activities
-    {
+    #activities {
         margin-top: 5%;
-        
     }
 
-    #activities_notitle
-    {
+    #activities_notitle {
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin-top: 5%;
-        
     }
 
-    #col2-2 img
-    {
+    #col2-2 img {
         height: 105px;
-
     }
 
-    footer ul
-    {
+    footer ul {
         margin-right: 100px;
-
     }
-
 }
 
 /*Media queries pour tablette portrait*/
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait)
-
-{   
-
-    #filtres
-    {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    #filtres {
         max-width: 80%;
-
     }
 
-    #populaire_notitle
-    {
-        flex-wrap: wrap; 
-        
+    #populaire_notitle {
+        flex-wrap: wrap;
     }
 
-    .inserts2
-
-    {
+    .inserts2 {
         max-width: 300px;
-    
     }
 
-    #col1
-    {
+    #col1 {
         order: 1;
-
     }
 
-    #col2
-    {
+    #col2 {
         order: 2;
-
     }
 
-    #col3
-    {
+    #col3 {
         order: 4;
-
     }
 
-    #col4
-    {
+    #col4 {
         order: 3;
-
     }
 
-
-    #col3, #col4
-    {
+    #col3, #col4 {
         margin: 5% 0 5% 0;
-
     }
-
 }
 
 /*Media queries pour tablette paysage*/
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape)
-{
-    
-    #filtres
-    {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #filtres {
         max-width: 60%;
-
     }
 
-    #populaire_notitle
-    {
-        margin : 0 3% 0 3%;
-        
+    #populaire_notitle {
+        margin: 0 3% 0 3%;
     }
-    
-    .inserts2
-    {
+
+    .inserts2 {
         max-width: 275px;
-    
     }
 
-
-    #col4
-    {
+    #col4 {
         flex-direction: row;
-
     }
 
-    #col4-1, #col4-2
-    {
+    #col4-1, #col4-2 {
         margin: 50px 30px 0 30px;
-       
     }
 
-    #col4-1 img, #col4-2 img
-    {
-
-       height: 200px;
-       
+    #col4-1 img, #col4-2 img {
+        height: 200px;
     }
-
-    footer
-    {
+    
+    footer {
         justify-content: space-evenly;
-
     }
 }
