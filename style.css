@@ -576,348 +576,371 @@ footer h2 {
 /*Media queries pour smartphone*/
 
 @media only screen and (max-width: 767px) {
-    body, footer, #all_but_footer, footer ul {
-        width: auto;
-    }
-
-    #heberpop, #hebergements, #hebergements_notitle, #populaire, #activities, #activities_notitle, footer {
-        flex-direction: column;
-    }
-
-    #trouvez h1, #trouvez p, #filtres h2, #infoline, #col1, #col2-1, #col2-2, #col3, #col4-1, #col4-2, .inserts, .inserts2 {
-        margin: 10px 20px 10px 20px;
-    }
-
-    #trouvez h1 {
-        margin-top: 20px;
-    }
-
-    header {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin-top: 30px;
-    }
-
-    header div:first-of-type {
-        grid-column-start: 1;
-        padding-left: 20px;
-    }
-
-    #sinscrire {
-        grid-column-start: 2;
-        padding: 0 20px 0 0;
-        text-align: right;
-        align-self: center;
-    }
-
-    #navdiv {
-        grid-row: 2/2;
-        grid-column: 1/3;
-    }
-
-    header a, header img {
-        padding: 0;
-    }
-
-    header ul {
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-    }
-
-    header ul li {
-        width: calc(100% / 2);
-        text-align: center;
-        border-bottom-style: solid;
-        border-bottom-width: 3px;
-        padding: 20px 0 10px 0;
-    }
-
-    header ul li:first-of-type {
-        border-bottom-color: #0065FC;
-        border-top: hidden;
-    }
-
-    header ul li:last-of-type {
-        border-bottom-color: #F2F2F2;
-    }
-
-    #searchbar_container {
-        display: flex;
-        justify-content: center;
-    }
-
-    #rechercher {
-        width: 44px;
-        font-size: 0;
-        border-radius: 15px;
-        position: relative;
-        right: 15px;
-    }
-
-    button svg {
-        width: 15px;
-        height: 15px;
-    }
-
-    #location_icon {
-        position: relative;
-        left: 15px;
-    }
-
-    #filtres {
-        padding-top: 20px;
-    }
-
-    #filtres, #menu_filtres {
-        flex-wrap: wrap;
-        padding-left: 0;
-    }
-
-    #menu_filtres {
-        margin: 5px;
-    }
-
-    .filtres {
-        margin-top: 10px;
-    }
-
-    #menu_filtres h2 {
-        padding: 0;
-        margin: 2px;
-    }
-
-    #infoline p {
-        margin-left: 7px;
-    }
-
-    .info_icon {
-        width: 10px;
-        height: 10px;
-    }
-
-    #heberpop {
-        flex-direction: column-reverse;
-    }
-
-    #populaire {
-        width: 100%;
-        border-radius: 0;
-        padding-bottom: 25px;
-    }
-
-    #populaire_header {
-        margin: 0;
-        padding: 20px 20px 0 20px;
-    }
-
-    #populaire_notitle {
-        flex-direction: column;
-    }
-
-    .inserts2 p {
-        line-height: 1;
-    }
-
-    #hebergements {
-        width: 100%;
-        background-color: white;
-    }
-
-    #hebergements h1 {
-        margin: 0;
-        padding: 30px 20px 10px 20px;
-    }
-    
-    #activities img, #hebergements img {
-        height: 120px;
-        width: 100%;
-    }
-    
-    #activities h1 {
-        padding: 20px 20px 5px 20px;
-    }
-
-    footer {
-        margin-top: 30px;
-        padding-bottom: 30px;
-        align-items: flex-start;
-    }
-
-    footer ul {
-        margin: auto;
-    }
+body, footer, #all_but_footer, footer ul {
+    width: auto;
 }
+
+#heberpop, #hebergements, #hebergements_notitle, #populaire, #activities, #activities_notitle, footer {
+    flex-direction: column;
+}
+
+#trouvez h1, #trouvez p, #filtres h2, #infoline, #col1, #col2-1, #col2-2, #col3, #col4-1, #col4-2, .inserts, .inserts2 {
+    margin: 10px 20px 10px 20px;
+}
+
+#trouvez h1 {
+    margin-top: 20px;
+}
+
+header {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 30px;
+}
+
+header div:first-of-type {
+    grid-column-start: 1;
+    padding-left: 20px;
+}
+
+#sinscrire {
+    grid-column-start: 2;
+    padding: 0 20px 0 0;
+    text-align: right;
+    align-self: center;
+}
+
+#navdiv {
+    grid-row: 2/2;
+    grid-column: 1/3;
+}
+
+header a, header img {
+    padding: 0;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+header ul li {
+    width: calc(100% / 2);
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    padding: 20px 0 10px 0;
+}
+
+header ul li:first-of-type {
+    border-bottom-color: #0065FC;
+    border-top: hidden;
+}
+
+header ul li:last-of-type {
+    border-bottom-color: #F2F2F2;
+}
+
+#searchbar_container {
+    display: flex;
+    justify-content: center;
+}
+
+#rechercher {
+    width: 44px;
+    font-size: 0;
+    border-radius: 15px;
+    position: relative;
+    right: 15px;
+}
+
+button svg {
+    width: 15px;
+    height: 15px;
+}
+
+#location_icon {
+    position: relative;
+    left: 15px;
+}
+
+#filtres {
+    padding-top: 20px;
+}
+
+#filtres, #menu_filtres {
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+#menu_filtres {
+    margin: 5px;
+}
+
+.filtres {
+    margin-top: 10px;
+}
+
+#menu_filtres h2 {
+    padding: 0;
+    margin: 2px;
+}
+
+#infoline p {
+    margin-left: 7px;
+}
+
+.info_icon {
+    width: 10px;
+    height: 10px;
+}
+
+#heberpop {
+    flex-direction: column-reverse;
+}
+
+#populaire {
+    width: 100%;
+    border-radius: 0;
+    padding-bottom: 25px;
+}
+
+#populaire_header {
+    margin: 0;
+    padding: 20px 20px 0 20px;
+}
+
+#populaire_notitle {
+    flex-direction: column;
+}
+
+.inserts2 p {
+    line-height: 1;
+}
+
+#hebergements {
+    width: 100%;
+    background-color: white;
+}
+
+#hebergements h1 {
+    margin: 0;
+    padding: 30px 20px 10px 20px;
+}
+
+#activities img, #hebergements img {
+    height: 120px;
+    width: 100%;
+}
+
+#activities h1 {
+    padding: 20px 20px 5px 20px;
+}
+
+footer {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    align-items: flex-start;
+}
+
+footer ul {
+    margin: auto;
+}
+}
+
+/*Media queries pour smartphone paysage*/
+
+@media only screen and (max-width: 767px) and (orientation: landscape) 
+
+{
+#col1, #col2-1, #col2-2, #col3, #col4-1, #col4-2, .inserts, .inserts2 {
+    margin: 10px 100px 10px 100px;
+    
+}
+
+.inserts2 img {
+    width: calc(100% / 2);
+    height: 150px;
+}
+
+#activities img, #hebergements img {
+    height: 200px;
+    width: 100%;
+}
+    
+}
+
 
 /*Media queries pour tablette*/
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    #all_but_footer {
-        width: auto;
-        margin: 0 4% 0 4%;
-    }
+#all_but_footer {
+    width: auto;
+    margin: 0 4% 0 4%;
+}
 
-    footer {
-        width: auto;
-    }
+footer {
+    width: auto;
+}
 
-    header {
-        margin: 0 10% 0 10%;
-    }
+header {
+    margin: 0 10% 0 10%;
+}
 
-    #trouvez {
-        text-align: center;
-    }
+#trouvez {
+    text-align: center;
+}
 
-    #searchbar_container {
-        display: flex;
-        justify-content: center;
-    }
+#searchbar_container {
+    display: flex;
+    justify-content: center;
+}
 
-    #filtres {
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-        margin-top: 50px;
-    }
+#filtres {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
 
-    #menu_filtres {
-        flex-wrap: wrap;
-        padding-left: 80px;
-    }
+#menu_filtres {
+    flex-wrap: wrap;
+    padding-left: 80px;
+}
 
-    .filtres {
-        margin-top: 5px;
-    }
+.filtres {
+    margin-top: 5px;
+}
 
-    #infoline {
-        justify-content: center;
-        margin-bottom: 60px;
-    }
+#infoline {
+    justify-content: center;
+    margin-bottom: 60px;
+}
 
-    #heberpop {
-        flex-direction: column-reverse;
-    }
+#heberpop {
+    flex-direction: column-reverse;
+}
 
-    #populaire_notitle {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+#populaire_notitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-    .inserts2 {
-        margin: 0 12px 40px 12px;
-    }
+.inserts2 {
+    margin: 0 12px 40px 12px;
+}
 
-    .inserts2 img {
-        margin: 0;
-        width: 150px;
-        height: 150px;
-    }
+.inserts2 img {
+    margin: 0;
+    width: 150px;
+    height: 150px;
+}
 
-    .inserts2 p {
-        line-height: 1;
-    }
+.inserts2 p {
+    line-height: 1;
+}
 
-    .insert_right {
-        margin-right: 15px;
-    }
+.insert_right {
+    margin-right: 15px;
+}
 
-    #hebergements {
-        margin-top: 5%;
-        margin-right: 0;
-        padding-top: 3%;
-        justify-content: space-around;
-    }
+#hebergements {
+    margin-top: 5%;
+    margin-right: 0;
+    padding-top: 3%;
+    justify-content: space-around;
+}
 
-    .inserts img {
-        width: 250px;
-        height: 95px;
-    }
+.inserts img {
+    width: 250px;
+    height: 95px;
+}
 
-    #activities {
-        margin-top: 5%;
-    }
+#activities {
+    margin-top: 5%;
+}
 
-    #activities_notitle {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin-top: 5%;
-    }
+#activities_notitle {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
 
-    #col2-2 img {
-        height: 105px;
-    }
+#col2-2 img {
+    height: 105px;
+}
 
-    footer ul {
-        margin-right: 100px;
-    }
+footer ul {
+    margin-right: 100px;
+}
 }
 
 /*Media queries pour tablette portrait*/
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-    #filtres {
-        max-width: 80%;
-    }
+#filtres {
+    max-width: 80%;
+}
 
-    #populaire_notitle {
-        flex-wrap: wrap;
-    }
+#populaire_notitle {
+    flex-wrap: wrap;
+}
 
-    .inserts2 {
-        max-width: 300px;
-    }
+.inserts2 {
+    max-width: 300px;
+}
 
-    #col1 {
-        order: 1;
-    }
+#col1 {
+    order: 1;
+}
 
-    #col2 {
-        order: 2;
-    }
+#col2 {
+    order: 2;
+}
 
-    #col3 {
-        order: 4;
-    }
+#col3 {
+    order: 4;
+}
 
-    #col4 {
-        order: 3;
-    }
+#col4 {
+    order: 3;
+}
 
-    #col3, #col4 {
-        margin: 5% 0 5% 0;
-    }
+#col3, #col4 {
+    margin: 5% 0 5% 0;
+}
 }
 
 /*Media queries pour tablette paysage*/
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    #filtres {
-        max-width: 60%;
-    }
+#filtres {
+    max-width: 60%;
+}
 
-    #populaire_notitle {
-        margin: 0 3% 0 3%;
-    }
+#populaire_notitle {
+    margin: 0 3% 0 3%;
+}
 
-    .inserts2 {
-        max-width: 275px;
-    }
+.inserts2 {
+    max-width: 275px;
+}
 
-    #col4 {
-        flex-direction: row;
-    }
+#col4 {
+    flex-direction: row;
+}
 
-    #col4-1, #col4-2 {
-        margin: 50px 30px 0 30px;
-    }
+#col4-1, #col4-2 {
+    margin: 50px 30px 0 30px;
+}
 
-    #col4-1 img, #col4-2 img {
-        height: 200px;
-    }
-    
-    footer {
-        justify-content: space-evenly;
-    }
+#col4-1 img, #col4-2 img {
+    height: 200px;
+}
+
+footer {
+    justify-content: space-evenly;
+}
 }
