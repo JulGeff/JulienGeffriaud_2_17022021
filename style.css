@@ -943,4 +943,19 @@ footer ul {
 footer {
     justify-content: space-evenly;
 }
+
+}
+
+/*Media queries pour IPhone X*/
+
+@media only screen and (width: 812px) {
+
+    #populaire_notitle {
+    flex-wrap: wrap;
+}
+
+#activities img {
+    width: 210px;
+
+}
 }
